@@ -13,3 +13,8 @@
 
 Route::get('/', 'CategoriesController@getParentCategories');
 Route::get('/get-sub-categories', 'CategoriesController@getSubCategories');
+Route::get('/create', 'CategoriesController@create');
+Route::post('/store', 'CategoriesController@store');
+Route::get('/edit/{id}', 'CategoriesController@edit');
+Route::post('/update/{id}', 'CategoriesController@update');
+Route::delete('/destroy/{id}', 'CategoriesController@destroy');
