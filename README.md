@@ -1,6 +1,7 @@
 ## Unlimited Sub Categories Demo
 
-This project display categories and its sub through select dropdown option.
+- This project display categories and its sub through select dropdown option.
+- Full CRUD Operation ( Get all data with pagination - Create new one - Edit - Delete )
 
 ## Important Commands
 
